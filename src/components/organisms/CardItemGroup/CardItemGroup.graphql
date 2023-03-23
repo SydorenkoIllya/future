@@ -1,0 +1,5 @@
+query ExampleQuery($limit: Int, $offset: Int) {
+ rockets(limit: $limit, offset: $offset) {
+   ...CardItem
+ }
+}

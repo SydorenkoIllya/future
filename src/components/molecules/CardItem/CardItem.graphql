@@ -1,0 +1,5 @@
+fragment CardItem on Rocket {
+   id
+   description
+   name
+}
